@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "main.py"
+      "source": "/chat",
+      "destination": "/main.py"
+    },
+    {
+      "source": "/",
+      "destination": "/main.py"
     }
   ]
 }
